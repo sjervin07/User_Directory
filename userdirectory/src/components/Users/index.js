@@ -2,7 +2,7 @@ import React from "react";
 import Table from "..//Table/index";
 
 
-class Main extends React.Component {
+class Users extends React.Component {
   state = {
     users: [],
     search: "",
@@ -61,4 +61,4 @@ class Main extends React.Component {
     );
   }
 }
-export default Main;
+export default Users;
