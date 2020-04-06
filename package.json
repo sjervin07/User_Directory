@@ -1,0 +1,19 @@
+{
+  "name": "user_directory",
+  "version": "1.0.0",
+  "description": "Directory that allows search for random user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjervin07/User_Directory.git"
+  },
+  "author": "Shannon Ervin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjervin07/User_Directory/issues"
+  },
+  "homepage": "https://github.com/sjervin07/User_Directory#readme"
+}
