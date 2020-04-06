@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "..//Table/index";
+import API from "../../utils/API"
 
 
 class Users extends React.Component {
@@ -9,7 +10,7 @@ class Users extends React.Component {
     filterUsers: []
   };
   componentDidMount() {
-    Api.getUsers().then(results => {
+    API.getUsers().then(results => {
       this.setState({ users: results.data.results });
       this.handleFilteredUsers();
     });
