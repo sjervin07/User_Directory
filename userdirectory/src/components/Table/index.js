@@ -17,7 +17,7 @@ function Table({ users }) {
             <th scope="col">Name (First and Last)</th>
             <th scope="col">Cell</th>
             <th scope="col">Email</th>
-            <th scope="col">DOB</th>
+            <th scope="col">Birthday</th>
           </tr>
         </thead>
         <tbody>
