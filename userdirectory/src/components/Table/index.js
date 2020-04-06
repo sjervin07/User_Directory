@@ -14,8 +14,8 @@ function Table({ users }) {
         <thead>
           <tr>
             <th scope="col">Image</th>
-            <th scope="col">Name (First and Last)</th>
-            <th scope="col">Cell</th>
+            <th scope="col">Name</th>
+            <th scope="col">Cell Phone</th>
             <th scope="col">Email</th>
             <th scope="col">Birthday</th>
           </tr>
